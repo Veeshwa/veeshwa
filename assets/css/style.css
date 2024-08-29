@@ -274,6 +274,13 @@ h6 {
     padding-left: 160px;
   }
 }
+@media only screen and (max-width: 768px) {
+  #hero {
+    height: 50vh; /* Adjust the height for mobile */
+    background: url("../img/background4.jpg") center center no-repeat;
+    background-size: cover;
+  }
+}
 
 #hero:before {
   content: "";
